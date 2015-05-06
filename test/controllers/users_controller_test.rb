@@ -6,5 +6,6 @@ class UsersControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "Sign Up | Ruby on Rails Tutorial Sample App"
   end
+ 
 
 end
